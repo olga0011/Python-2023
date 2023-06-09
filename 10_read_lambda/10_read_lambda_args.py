@@ -35,9 +35,9 @@ and returns the sum of their squares. Assign the lambda function to a variable
 called sum_of_squares. Test the lambda function by passing different values for a and b.'''
 
 sum_of_squares = lambda a, b: a**2 + b**2
-print (sum_of_squares(3, 1))
-print (sum_of_squares(0, 1))
-print (sum_of_squares(-1,-3))
+print (sum_of_squares(3, 1)) #output: 10
+print (sum_of_squares(0, 1)) #output: 1
+print (sum_of_squares(-1,-3)) #output: 10
 
 '''3. Write a Python function called calculate_average that accepts a variable 
 number of arguments (numbers) and returns the average of those numbers. 
