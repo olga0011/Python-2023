@@ -38,17 +38,7 @@ print(str(calc("str", "div", 67))) # At least one argument is not a valid number
 print(str(calc(7, "sub", "4"))) # At least one argument is not a valid number. None
 
 
-'''3: Special Methods - Rectangle
-1. Create a class called Rectangle with attributes width and height. Implement the
-__str__() and __eq__() special methods for the Rectangle class. Test the string
-representation and equality comparison of Rectangle objects.
-Subtasks:
-○ Define the Rectangle class with width and height attributes.
-○ Implement the __str__() special method to return a string representation of the
-rectangle.
-○ Implement the __eq__() special method to compare two rectangles for equality.
-○ Create multiple Rectangle objects and test the string representation and equality
-comparison. '''
+'''3: Special Methods - Rectangle'''
 
 class Rectangle:
     '''Class Rectangle with attributes width and height'''
